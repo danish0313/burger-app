@@ -1,0 +1,62 @@
+/* Full-width input fields */
+.form input  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+
+
+.form p{
+
+color: red;
+font-weight: bolder;
+
+}
+
+.form{
+
+
+  margin-top:60px;
+}
+
+
+
+.change{
+margin : 0 auto;
+text-align: center;
+}
+
+
+/* Set a style for all buttons */
+.form button {
+  background-color:#703809;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.box{
+
+border-radius:15px;
+border:1px solid #703809;
+padding:20px;
+width:400px;
+height: auto;
+margin: 0 auto;
+
+
+}

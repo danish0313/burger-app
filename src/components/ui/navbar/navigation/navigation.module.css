@@ -1,0 +1,89 @@
+
+.navigation{
+width: auto;
+box-sizing: border-box;
+height: 100%;
+
+}
+
+
+.navigation ul {
+display: flex;
+list-style-type: none;
+padding: auto;
+margin: auto;
+
+}
+
+.navigation ul li {
+
+height: 100%;
+padding: 5px;
+margin: 5px;
+cursor: pointer;
+
+}
+
+.navigation ul li a{
+  color: #CF8F2E;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.navigation ul li:hover{
+
+box-sizing: border-box;
+color: white;
+border-bottom: 2px solid #CF8F2E;
+transition: all 1s;
+
+}
+
+
+
+/*mobile view side nav    */
+
+
+.side  ul{
+
+list-style-type: none;
+display: block;
+width: auto;
+
+}
+
+.side ul li {
+width: 100% auto;
+
+margin: 5px 50px 5px 0px;
+padding: 10px;
+
+
+text-align: center;
+cursor: pointer;
+
+
+}
+
+
+
+.side ul li a{
+
+  color: #CF8F2E;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.side ul li:hover{
+
+box-sizing: border-box;
+color: white;
+border-bottom: 2px solid #CF8F2E;
+transition: all 1s;
+
+}

@@ -1,0 +1,27 @@
+.sidemenu{
+
+  height: 100%; /* 100% Full-height */
+  width: 250; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 140 ; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color:#703809; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: transform 0.3s ease-out; /* 0.5 second transition effect to slide in the sidenav */
+box-sizing: border-box;
+}
+
+
+.open {
+
+
+transform: translateX(0);
+
+}
+
+.remove {
+  transform: translateX(-100%);
+
+}

@@ -1,0 +1,50 @@
+.logo{
+
+background-color: white;
+padding:8px;
+border-radius: 5px;
+box-sizing: border-box;
+height: 70%;
+margin: auto;
+margin-left: 45%;
+}
+
+
+.logo img{
+
+  height: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+  .logo {
+margin-left:5%
+  }
+}
+
+
+.logosize img {
+height:30px;
+
+}
+
+.logosize{
+  margin: 0 auto;
+  background-color: white;
+  padding:8px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 60px;
+
+}
+
+
+.logosize:hover{
+  transform: rotate(360deg);
+background-color: #381C04;
+
+transition:all 1s;
+
+
+}

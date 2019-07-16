@@ -1,0 +1,53 @@
+.contactdata{
+
+  text-align: center;
+
+  box-shadow: 3px 3px 4px grey ;
+width:60%;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+
+label{
+
+display:inline-block;
+margin-right: 20px;
+
+}
+
+
+.form input {
+
+margin:20px;
+width: 40%;
+height:40px;
+border-radius: 10px;
+
+}
+
+ input:focus{
+outline: none;
+transition: all 1s;
+  border:2px solid red;
+
+}
+
+select{
+
+  margin:30px;
+  width: 40%;
+  height:40px;
+  border-radius: 10px;
+
+}
+
+select:focus{
+  outline: none;
+}
+
+.contactdata p{
+
+  color: red;
+  text-align: center;
+  font-weight: 700;
+}
